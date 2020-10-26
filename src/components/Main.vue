@@ -69,6 +69,22 @@
         <vue-mathjax
           formula="$$a_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*cos(j*t_k) \qquad b_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*sin(j*t_k)$$"
         />
+        <p>
+          Avid readers of the links I post in Discord might realize that this
+          page's layout is a blatant rip-off of the excellent
+          <a href="https://gwern.net">Gwern.net</a>. Frankly, I think that site
+          is just very pretty and I really like it, so I more or less copied the
+          style. Who knows, maybe one day I'll grow bored and do something else,
+          or maybe I'll get creative and give it my own touch. They do say that
+          <q>imitation is the sincerest form of flattery</q>. I'm still not sure
+          who <q>they</q> are, to be honest.
+        </p>
+        <p>
+          I would actually like to remove Netlify out of the equation, not
+          because it's bad or anything, but rather because I'd like implementing
+          a service like that myself. I'm yet sure how I'd want to do it,
+          probably using webhooks? We'll see.
+        </p>
       </v-col>
       <v-col cols="12" md="3"></v-col>
     </v-row>
@@ -92,7 +108,7 @@ export default {
 p.drop-caps::first-letter {
   font-family: "Kanzlei Initialen";
   float: left;
-  font-size: 120px;
+  font-size: 60px;
   line-height: 60px;
   padding-top: 4px;
   padding-right: 8px;
@@ -104,5 +120,8 @@ p.small-caps::first-line {
 }
 p + p {
   text-indent: 1em;
+}
+.MathJax_Container + p {
+  margin-top: 16px;
 }
 </style>

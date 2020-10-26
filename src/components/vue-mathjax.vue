@@ -1,5 +1,5 @@
 <template>
-  <span ref="mathJaxEl">{{formula}}</span>
+  <span class="MathJax_Container" ref="mathJaxEl">{{formula}}</span>
 </template>
 
 <script>
