@@ -121,7 +121,4 @@ p.small-caps::first-line {
 p + p {
   text-indent: 1em;
 }
-.MathJax_Container + p {
-  margin-top: 16px;
-}
 </style>
