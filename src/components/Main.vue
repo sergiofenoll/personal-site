@@ -17,21 +17,18 @@
           <vue-mathjax formula="$\lim_{n \to \infty} \frac{1}{n}$" />
           people.
         </p>
-        <figure
-          align="left"
-          style="width: 40%; margin-right: 16px; float: left"
-        >
-          <img
+        <v-card style="width: 40%; margin-right: 16px; float: left">
+          <v-img
             src="../assets/images/me.jpg"
             width="100%"
             alt="An image of me drinking a beer."
           />
-          <figcaption>
+          <v-card-text>
             A picture of me. Don't be fooled though, I am bald now. I just
             haven't gotten a nice picture taken, so I'm still rocking the last
             pretty picture of myself I can find.
-          </figcaption>
-        </figure>
+          </v-card-text>
+        </v-card>
         <p>
           Since you're here, I'll assume you want to know something about me. As
           stated above, my name is Sergio but I'm also known online as
@@ -80,7 +77,7 @@
 
 
 <script>
-import { VueMathjax } from "vue-mathjax";
+import VueMathjax from "./vue-mathjax";
 
 export default {
   name: "Main",
