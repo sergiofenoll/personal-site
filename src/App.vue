@@ -18,5 +18,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
+@import url("./assets/fonts/Kanzlei-Initialen/Kanzlei-Initialen.css");
+@import url("./assets/fonts/SourceSerifPro/SourceSerifPro.css");
+
+p {
+  font-size: 18px;
+  text-align: left;
+}
 </style>

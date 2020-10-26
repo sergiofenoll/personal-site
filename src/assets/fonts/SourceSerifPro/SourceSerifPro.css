@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-ExtraLight.ttf") format("truetype");
+  font-weight: 200; /* light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200; /* normal */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-Light.ttf") format("truetype");
+  font-weight: 300; /* light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-LightItalic.ttf") format("truetype");
+  font-weight: 300; /* light */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-Regular.ttf") format("truetype");
+  font-weight: 400; /* normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-Italic.ttf") format("truetype");
+  font-weight: 400; /* normal */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* semi bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600; /* semi bold */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-Bold.ttf") format("truetype");
+  font-weight: 700; /* bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  src: url("SourceSerifPro-BoldItalic.ttf") format("truetype");
+  font-weight: 700; /* bold */
+  font-style: italic;
+}
