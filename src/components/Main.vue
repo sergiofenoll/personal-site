@@ -14,7 +14,7 @@
           IP. Isn't the Internet nifty? Anyway, if you're here... well if you're
           here I'm frankly very surprised because I have shared this site with
           about
-          <vue-mathjax formula="$\lim_{n \to \infty} \frac{1}{n}$" />
+          <mathjax formula="\( \lim_{n \to \infty} \frac{1}{n} \)" />
           people.
         </p>
         <v-card style="width: 40%; margin-right: 16px; float: left">
@@ -63,11 +63,11 @@
           <a href="https://vuejs.org/">Vue</a> and hosted on
           <a href="https://www.netlify.com/">Netlify</a> for no other reason
           than because I wanted to give both of them a try. They're
-          <em>okay</em>. Anyway, have some <vue-mathjax formula="$\LaTeX$" /> I
-          plucked from an old math assignment:
+          <em>okay</em>. Anyway, have some LaTeX I plucked from an old math
+          assignment:
         </p>
-        <vue-mathjax
-          formula="$$a_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*cos(j*t_k) \qquad b_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*sin(j*t_k)$$"
+        <mathjax
+          formula="\[ a_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*cos(j*t_k) \qquad b_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*sin(j*t_k) \]"
         />
         <p>
           Avid readers of the links I post in Discord might realize that this
@@ -93,12 +93,17 @@
 
 
 <script>
-import VueMathjax from "./vue-mathjax";
+import Mathjax from "./Mathjax";
 
 export default {
   name: "Main",
   components: {
-    VueMathjax,
+    Mathjax,
+  },
+  data() {
+    return {
+      formula: "\\(x = 12\\)",
+    };
   },
   title: "Home · Greyoda.dev",
 };
