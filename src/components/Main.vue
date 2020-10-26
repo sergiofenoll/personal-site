@@ -19,12 +19,11 @@
         </p>
         <figure
           align="left"
-          style="width: 300px; margin-right: 16px; float: left"
+          style="width: 40%; margin-right: 16px; float: left"
         >
           <img
             src="../assets/images/me.jpg"
-            contain
-            width="300"
+            width="100%"
             alt="An image of me drinking a beer."
           />
           <figcaption>
