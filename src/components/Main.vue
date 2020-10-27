@@ -100,11 +100,6 @@ export default {
   components: {
     Mathjax,
   },
-  data() {
-    return {
-      formula: "\\(x = 12\\)",
-    };
-  },
   title: "Home · Greyoda.dev",
 };
 </script>
