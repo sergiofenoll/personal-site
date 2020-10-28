@@ -1,7 +1,14 @@
 <template>
   <v-container>
+    <v-switch
+      v-model="isDark"      
+      inset
+      color="amber"
+      prepend-icon="mdi-theme-light-dark"
+      style="position: absolute; top: 0px; right: 10px"
+    ></v-switch>
     <v-row>
-      <v-col cols="12" md="3"></v-col>
+      <v-col cols="12" md="3"> </v-col>
       <v-col cols="12" md="6">
         <h1></h1>
         <p>
@@ -101,6 +108,17 @@ export default {
     Mathjax,
   },
   title: "Home · Greyoda.dev",
+  data() {
+    return {
+      isDark: this.$vuetify.theme.dark,
+    };
+  },
+  watch: {
+    isDark(newValue) {
+      this.$vuetify.theme.dark = newValue;
+      localStorage.isDark = newValue;
+    },
+  },
 };
 </script>
 
