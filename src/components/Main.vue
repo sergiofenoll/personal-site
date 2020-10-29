@@ -10,7 +10,6 @@
     <v-row>
       <v-col cols="12" md="3"> </v-col>
       <v-col cols="12" md="6">
-        <h1></h1>
         <p>
           <span class="small-caps"
             >I'm not really sure what to write here.</span
@@ -74,7 +73,7 @@
           assignment:
         </p>
         <mathjax
-          formula="\[ a_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*cos(j*t_k) \qquad b_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*sin(j*t_k) \]"
+          formula="\[ a_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*cos(j*t_k)) \qquad b_j = \frac{2}{n} * \sum_{k=0}^{n-1}(x_k*sin(j*t_k)) \]"
         />
         <p>
           Avid readers of the links I post in Discord might realize that this
@@ -91,6 +90,9 @@
           because it's bad or anything, but rather because I'd like implementing
           a service like that myself. I'm yet sure how I'd want to do it,
           probably using webhooks? We'll see.
+        </p>
+        <p>
+          
         </p>
       </v-col>
       <v-col cols="12" md="3"></v-col>
