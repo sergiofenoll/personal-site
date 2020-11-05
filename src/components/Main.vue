@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-switch
-      v-model="isDark"      
+      v-model="isDark"
       inset
       color="amber"
       prepend-icon="mdi-theme-light-dark"
@@ -25,14 +25,13 @@
         </p>
         <v-card style="width: 40%; margin-right: 16px; float: left">
           <v-img
-            src="../assets/images/me.jpg"
+            src="../assets/images/me_but_bald.png"
             width="100%"
             alt="An image of me drinking a beer."
           />
           <v-card-text>
-            A picture of me. Don't be fooled though, I am bald now. I just
-            haven't gotten a nice picture taken, so I'm still rocking the last
-            pretty picture of myself I can find.
+            A picture of me. Praying for hopes and dreams I will never achieve.
+            Or maybe I was just drunk. Or maybe both?
           </v-card-text>
         </v-card>
         <p>
@@ -91,9 +90,7 @@
           a service like that myself. I'm yet sure how I'd want to do it,
           probably using webhooks? We'll see.
         </p>
-        <p>
-          
-        </p>
+        <p></p>
       </v-col>
       <v-col cols="12" md="3"></v-col>
     </v-row>
@@ -140,5 +137,9 @@ p.small-caps::first-line {
 }
 p + p {
   text-indent: 1em;
+}
+p {
+  text-align: justify;
+  hyphens: auto;
 }
 </style>
